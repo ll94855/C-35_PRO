@@ -21,7 +21,7 @@ function setup() {
 
   food1 = new Food(150,250);
 
-  feedButton = createButton("Feed "+dogName);
+  feedButton = createButton("Feed the dog");
   feedButton.position(400,95);
   feedButton.mousePressed(feedDog);
 
